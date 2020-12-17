@@ -1,0 +1,21 @@
+{
+  "name": "final-project",
+  "version": "0.1.0",
+  "description": "This is my final project for COSC A319",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "author": "Wesley Anderson <wcanders@my.loyno.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
